@@ -6,67 +6,67 @@ const textoResultado = document.querySelector('.texto-resultado');
 // Define as perguntas e alternativas
 const perguntas = [
     {
-        enunciado: "Qual é a principal ameaça para a Mata Atlântica atualmente?",
+        enunciado: "Qual é a principal missão do Exército Brasileiro?",
         alternativas: [
             {
-                texto: "Desmatamento e expansão agrícola",
-                afirmacao: "O desmatamento e a expansão agrícola são as maiores ameaças, levando à perda de habitat e redução da biodiversidade."
+                texto: "Defesa da soberania nacional",
+                afirmacao: "A principal missão do Exército Brasileiro é a defesa da soberania nacional e a proteção do território brasileiro contra ameaças externas."
             },
             {
-                texto: "Preservação e reflorestamento",
-                afirmacao: "A preservação e reflorestamento são estratégias para combater as ameaças, mas não são ameaças em si mesmas."
+                texto: "Promoção de eventos culturais",
+                afirmacao: "Embora o Exército possa participar de eventos culturais, sua principal missão é a defesa da soberania e a segurança nacional."
             }
         ]
     },
     {
-        enunciado: "Qual é um dos animais emblemáticos da Mata Atlântica?",
+        enunciado: "Qual é o nome do comando máximo do Exército Brasileiro?",
         alternativas: [
             {
-                texto: "Onça-pintada",
-                afirmacao: "A onça-pintada é um dos animais emblemáticos da Mata Atlântica, sendo um predador topo e importante para o equilíbrio do ecossistema."
+                texto: "Comando do Exército",
+                afirmacao: "O Comando do Exército é a principal autoridade que lidera as Forças Terrestres e coordena todas as atividades do Exército Brasileiro."
             },
             {
-                texto: "Pinguim",
-                afirmacao: "O pinguim não é nativo da Mata Atlântica; ele é encontrado principalmente em regiões do Hemisfério Sul, como a Antártica."
+                texto: "Comando da Marinha",
+                afirmacao: "O Comando da Marinha é responsável pela Força Naval, não pelo Exército Brasileiro."
             }
         ]
     },
     {
-        enunciado: "Qual é uma das funções ecológicas da Mata Atlântica?",
+        enunciado: "Qual é a unidade de elite do Exército Brasileiro?",
         alternativas: [
             {
-                texto: "Regulação do ciclo da água",
-                afirmacao: "A Mata Atlântica desempenha um papel crucial na regulação do ciclo da água, ajudando na formação de nuvens e no fornecimento de água para os rios."
+                texto: "Força de Operações Especiais",
+                afirmacao: "A Força de Operações Especiais é uma unidade de elite do Exército Brasileiro, especializada em operações de alto risco e táticas especiais."
             },
             {
-                texto: "Produção de petróleo",
-                afirmacao: "A produção de petróleo não é uma função ecológica da Mata Atlântica e está associada a impactos ambientais negativos."
+                texto: "Corpo de Bombeiros",
+                afirmacao: "O Corpo de Bombeiros é uma força distinta do Exército Brasileiro, focada em combate a incêndios e resgate."
             }
         ]
     },
     {
-        enunciado: "Qual é a importância das áreas de proteção na Mata Atlântica?",
+        enunciado: "Qual é a importância dos centros de instrução do Exército Brasileiro?",
         alternativas: [
             {
-                texto: "Conservação da biodiversidade",
-                afirmacao: "Áreas de proteção ajudam a conservar a biodiversidade ao preservar habitats naturais e espécies ameaçadas."
+                texto: "Treinamento e formação de soldados",
+                afirmacao: "Os centros de instrução são essenciais para o treinamento e a formação de soldados, preparando-os para suas funções e responsabilidades."
             },
             {
-                texto: "Expansão urbana",
-                afirmacao: "A expansão urbana pode ameaçar áreas de proteção e reduzir a eficácia da conservação da biodiversidade."
+                texto: "Organização de eventos sociais",
+                afirmacao: "Os centros de instrução se concentram em treinamento militar e formação, não em eventos sociais."
             }
         ]
     },
     {
-        enunciado: "Qual é uma prática eficaz para a conservação da Mata Atlântica?",
+        enunciado: "Qual é a principal função dos batalhões no Exército Brasileiro?",
         alternativas: [
             {
-                texto: "Reflorestamento e restauração de habitats",
-                afirmacao: "O reflorestamento e a restauração de habitats são práticas eficazes para recuperar áreas degradadas e promover a recuperação da Mata Atlântica."
+                texto: "Realização de operações militares",
+                afirmacao: "Os batalhões são unidades táticas que realizam operações militares no campo, com diferentes especialidades e funções conforme a missão."
             },
             {
-                texto: "Aumento da agricultura em áreas protegidas",
-                afirmacao: "Aumentar a agricultura em áreas protegidas pode causar mais degradação e perda de habitat, prejudicando a conservação."
+                texto: "Administração pública",
+                afirmacao: "A administração pública não é uma função dos batalhões, que estão focados em operações militares e de defesa."
             }
         ]
     },
