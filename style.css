@@ -1,1 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --verde-menta: rgb(189, 252, 201);   /* Verde menta claro e fresco */
+    --verde-claro: rgb(144, 238, 144);   /* Verde claro, suave e delicado */
+    --verde-oliva: rgb(107, 142, 35);    /* Verde oliva, mais profundo e terroso */
+    --verde-musgo: rgb(100, 123, 82);    /* Verde musgo, sofisticado e natural */
+    --verde-esmeralda: rgb(80, 200, 120); /* Verde esmeralda vibrante */
+    --verde-escuro: rgb(34, 139, 34);    /* Verde escuro, profundo e elegante */
+}
+body {
+    background-color: var(--bege);
+    color: var(--verde-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal {
+    background-color: var(--verde-esmeralda);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: var(--laranja);
+    font-family: var(--fonte-titulo);
+}
+
+button {
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: var(--verde-esmeralda);
+}
